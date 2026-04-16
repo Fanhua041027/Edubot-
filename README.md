@@ -1,95 +1,217 @@
-<p align="center">
-	<img alt="logo" src="https://oscimg.oschina.net/oscnet/up-d3d0a9303e11d522a06cd263f3079027715.png">
-</p>
-<h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">RuoYi v3.9.0</h1>
-<h4 align="center">基于SpringBoot+Vue前后端分离的Java快速开发框架</h4>
-<p align="center">
-	<a href="https://gitee.com/y_project/RuoYi-Vue/stargazers"><img src="https://gitee.com/y_project/RuoYi-Vue/badge/star.svg?theme=dark"></a>
-	<a href="https://gitee.com/y_project/RuoYi-Vue"><img src="https://img.shields.io/badge/RuoYi-v3.9.0-brightgreen.svg"></a>
-	<a href="https://gitee.com/y_project/RuoYi-Vue/blob/master/LICENSE"><img src="https://img.shields.io/github/license/mashape/apistatus.svg"></a>
-</p>
+# 多模态智能模拟面试评测系统
 
-## 平台简介
+## 项目简介
 
-若依是一套全部开源的快速开发平台，毫无保留给个人及企业免费使用。
+这是一个面向高校学生的多模态智能模拟面试评测系统网站，提供全面的面试训练和评估功能。系统集成了语音识别、计算机视觉和自然语言处理技术，为学生提供真实的面试体验和专业的能力评估。
 
-* 前端采用Vue、Element UI。
-* 后端采用Spring Boot、Spring Security、Redis & Jwt。
-* 权限认证使用Jwt，支持多终端认证系统。
-* 支持加载动态权限菜单，多方式轻松权限控制。
-* 高效率开发，使用代码生成器可以一键生成前后端代码。
-* 提供了技术栈（[Vue3](https://v3.cn.vuejs.org) [Element Plus](https://element-plus.org/zh-CN) [Vite](https://cn.vitejs.dev)）版本[RuoYi-Vue3](https://gitcode.com/yangzongzhuan/RuoYi-Vue3)，保持同步更新。
-* 提供了单应用版本[RuoYi-Vue-fast](https://gitcode.com/yangzongzhuan/RuoYi-Vue-fast)，Oracle版本[RuoYi-Vue-Oracle](https://gitcode.com/yangzongzhuan/RuoYi-Vue-Oracle)，保持同步更新。
-* 不分离版本，请移步[RuoYi](https://gitee.com/y_project/RuoYi)，微服务版本，请移步[RuoYi-Cloud](https://gitee.com/y_project/RuoYi-Cloud)
-* 阿里云折扣场：[点我进入](http://aly.ruoyi.vip)，腾讯云秒杀场：[点我进入](http://txy.ruoyi.vip)&nbsp;&nbsp;
+## 核心功能
 
-## 内置功能
+### 🎯 多岗位面试场景模拟
+- 支持人工智能、大数据、物联网、产品经理等技术岗位
+- 提供技术问答、项目经历追问、场景模拟题等差异化题库
+- 支持自由练习、限时模拟、专项训练等多种面试模式
 
-1.  用户管理：用户是系统操作者，该功能主要完成系统用户配置。
-2.  部门管理：配置系统组织机构（公司、部门、小组），树结构展现支持数据权限。
-3.  岗位管理：配置系统用户所属担任职务。
-4.  菜单管理：配置系统菜单，操作权限，按钮权限标识等。
-5.  角色管理：角色菜单权限分配、设置角色按机构进行数据范围权限划分。
-6.  字典管理：对系统中经常使用的一些较为固定的数据进行维护。
-7.  参数管理：对系统动态配置常用参数。
-8.  通知公告：系统通知公告信息发布维护。
-9.  操作日志：系统正常操作日志记录和查询；系统异常信息日志记录和查询。
-10. 登录日志：系统登录日志记录查询包含登录异常。
-11. 在线用户：当前系统中活跃用户状态监控。
-12. 定时任务：在线（添加、修改、删除)任务调度包含执行结果日志。
-13. 代码生成：前后端代码的生成（java、html、xml、sql）支持CRUD下载 。
-14. 系统接口：根据业务代码自动生成相关的api接口文档。
-15. 服务监控：监视当前系统CPU、内存、磁盘、堆栈等相关信息。
-16. 缓存监控：对系统的缓存信息查询，命令统计等。
-17. 在线构建器：拖动表单元素生成相应的HTML代码。
-18. 连接池监视：监视当前系统数据库连接池状态，可进行分析SQL找出系统性能瓶颈。
+### 📊 多维度智能评测
+- **语音分析**：评估语言流畅度、语速、停顿等指标
+- **视频分析**：检测微表情、肢体语言、眼神交流等表现
+- **文本分析**：评估专业知识匹配度、逻辑性、完整性等
+- **综合评分**：生成表达能力、逻辑思维、专业知识、应变能力、职业素养5项核心能力评分
 
-## 在线体验
+### 📈 智能反馈报告
+- 可视化能力雷达图展示五大维度得分
+- 突出问题定位和具体改进建议
+- 详细的面试表现分析报告
 
-- admin/admin123  
-- 陆陆续续收到一些打赏，为了更好的体验已用于演示服务器升级。谢谢各位小伙伴。
+### 🎓 个性化学习推荐
+- 根据薄弱环节推荐定制化学习资源
+- 生成阶段性成长曲线对比历史表现
+- 提供同岗位优秀面试者数据参考
 
-演示地址：http://vue.ruoyi.vip  
-文档地址：http://doc.ruoyi.vip
+### 🏆 用户成长体系
+- 面试能力档案长期保存
+- 成就系统激励持续训练
+- 支持生成可分享的电子版能力证书
 
-## 演示图
+## 技术特点
 
-<table>
-    <tr>
-        <td><img src="https://oscimg.oschina.net/oscnet/cd1f90be5f2684f4560c9519c0f2a232ee8.jpg"/></td>
-        <td><img src="https://oscimg.oschina.net/oscnet/1cbcf0e6f257c7d3a063c0e3f2ff989e4b3.jpg"/></td>
-    </tr>
-    <tr>
-        <td><img src="https://oscimg.oschina.net/oscnet/up-8074972883b5ba0622e13246738ebba237a.png"/></td>
-        <td><img src="https://oscimg.oschina.net/oscnet/up-9f88719cdfca9af2e58b352a20e23d43b12.png"/></td>
-    </tr>
-    <tr>
-        <td><img src="https://oscimg.oschina.net/oscnet/up-39bf2584ec3a529b0d5a3b70d15c9b37646.png"/></td>
-        <td><img src="https://oscimg.oschina.net/oscnet/up-936ec82d1f4872e1bc980927654b6007307.png"/></td>
-    </tr>
-	<tr>
-        <td><img src="https://oscimg.oschina.net/oscnet/up-b2d62ceb95d2dd9b3fbe157bb70d26001e9.png"/></td>
-        <td><img src="https://oscimg.oschina.net/oscnet/up-d67451d308b7a79ad6819723396f7c3d77a.png"/></td>
-    </tr>	 
-    <tr>
-        <td><img src="https://oscimg.oschina.net/oscnet/5e8c387724954459291aafd5eb52b456f53.jpg"/></td>
-        <td><img src="https://oscimg.oschina.net/oscnet/644e78da53c2e92a95dfda4f76e6d117c4b.jpg"/></td>
-    </tr>
-	<tr>
-        <td><img src="https://oscimg.oschina.net/oscnet/up-8370a0d02977eebf6dbf854c8450293c937.png"/></td>
-        <td><img src="https://oscimg.oschina.net/oscnet/up-49003ed83f60f633e7153609a53a2b644f7.png"/></td>
-    </tr>
-	<tr>
-        <td><img src="https://oscimg.oschina.net/oscnet/up-d4fe726319ece268d4746602c39cffc0621.png"/></td>
-        <td><img src="https://oscimg.oschina.net/oscnet/up-c195234bbcd30be6927f037a6755e6ab69c.png"/></td>
-    </tr>
-    <tr>
-        <td><img src="https://oscimg.oschina.net/oscnet/b6115bc8c31de52951982e509930b20684a.jpg"/></td>
-        <td><img src="https://oscimg.oschina.net/oscnet/up-5e4daac0bb59612c5038448acbcef235e3a.png"/></td>
-    </tr>
-</table>
+- **多模态分析**：整合语音识别、计算机视觉和自然语言处理技术
+- **响应式设计**：完美支持PC端访问
+- **设备兼容**：在普通摄像头和麦克风设备上获得稳定分析结果
+- **实时处理**：支持实时面试监控和分析
+- **数据安全**：完善的用户数据保护机制
 
+## 项目结构
 
-## 若依前后端分离交流群
+```
+demo3/
+├── index.html              # 首页
+├── interview.html          # 面试页面
+├── dashboard.html          # 个人中心
+├── login.html             # 登录页面
+├── register.html          # 注册页面
+├── admin.html             # 管理员界面
+├── css/
+│   ├── style.css          # 主样式文件
+│   └── admin.css          # 管理员样式
+├── js/
+│   ├── script.js          # 主JavaScript文件
+│   └── admin.js           # 管理员JavaScript
+└── README.md              # 项目说明文档
+```
 
-QQ群： [![加入QQ群](https://img.shields.io/badge/已满-937441-blue.svg)](https://jq.qq.com/?_wv=1027&k=5bVB1og) [![加入QQ群](https://img.shields.io/badge/已满-887144332-blue.svg)](https://jq.qq.com/?_wv=1027&k=5eiA4DH) [![加入QQ群](https://img.shields.io/badge/已满-180251782-blue.svg)](https://jq.qq.com/?_wv=1027&k=5AxMKlC) [![加入QQ群](https://img.shields.io/badge/已满-104180207-blue.svg)](https://jq.qq.com/?_wv=1027&k=51G72yr) [![加入QQ群](https://img.shields.io/badge/已满-186866453-blue.svg)](https://jq.qq.com/?_wv=1027&k=VvjN2nvu) [![加入QQ群](https://img.shields.io/badge/已满-201396349-blue.svg)](https://jq.qq.com/?_wv=1027&k=5vYAqA05) [![加入QQ群](https://img.shields.io/badge/已满-101456076-blue.svg)](https://jq.qq.com/?_wv=1027&k=kOIINEb5) [![加入QQ群](https://img.shields.io/badge/已满-101539465-blue.svg)](https://jq.qq.com/?_wv=1027&k=UKtX5jhs) [![加入QQ群](https://img.shields.io/badge/已满-264312783-blue.svg)](https://jq.qq.com/?_wv=1027&k=EI9an8lJ) [![加入QQ群](https://img.shields.io/badge/已满-167385320-blue.svg)](https://jq.qq.com/?_wv=1027&k=SWCtLnMz) [![加入QQ群](https://img.shields.io/badge/已满-104748341-blue.svg)](https://jq.qq.com/?_wv=1027&k=96Dkdq0k) [![加入QQ群](https://img.shields.io/badge/已满-160110482-blue.svg)](https://jq.qq.com/?_wv=1027&k=0fsNiYZt) [![加入QQ群](https://img.shields.io/badge/已满-170801498-blue.svg)](https://jq.qq.com/?_wv=1027&k=7xw4xUG1) [![加入QQ群](https://img.shields.io/badge/已满-108482800-blue.svg)](https://jq.qq.com/?_wv=1027&k=eCx8eyoJ) [![加入QQ群](https://img.shields.io/badge/已满-101046199-blue.svg)](https://jq.qq.com/?_wv=1027&k=SpyH2875) [![加入QQ群](https://img.shields.io/badge/已满-136919097-blue.svg)](https://jq.qq.com/?_wv=1027&k=tKEt51dz) [![加入QQ群](https://img.shields.io/badge/已满-143961921-blue.svg)](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=0vBbSb0ztbBgVtn3kJS-Q4HUNYwip89G&authKey=8irq5PhutrZmWIvsUsklBxhj57l%2F1nOZqjzigkXZVoZE451GG4JHPOqW7AW6cf0T&noverify=0&group_code=143961921) [![加入QQ群](https://img.shields.io/badge/已满-174951577-blue.svg)](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=ZFAPAbp09S2ltvwrJzp7wGlbopsc0rwi&authKey=HB2cxpxP2yspk%2Bo3WKTBfktRCccVkU26cgi5B16u0KcAYrVu7sBaE7XSEqmMdFQp&noverify=0&group_code=174951577) [![加入QQ群](https://img.shields.io/badge/已满-161281055-blue.svg)](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=Fn2aF5IHpwsy8j6VlalNJK6qbwFLFHat&authKey=uyIT%2B97x2AXj3odyXpsSpVaPMC%2Bidw0LxG5MAtEqlrcBcWJUA%2FeS43rsF1Tg7IRJ&noverify=0&group_code=161281055) [![加入QQ群](https://img.shields.io/badge/已满-138988063-blue.svg)](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=XIzkm_mV2xTsUtFxo63bmicYoDBA6Ifm&authKey=dDW%2F4qsmw3x9govoZY9w%2FoWAoC4wbHqGal%2BbqLzoS6VBarU8EBptIgPKN%2FviyC8j&noverify=0&group_code=138988063) [![加入QQ群](https://img.shields.io/badge/已满-151450850-blue.svg)](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=DkugnCg68PevlycJSKSwjhFqfIgrWWwR&authKey=pR1Pa5lPIeGF%2FFtIk6d%2FGB5qFi0EdvyErtpQXULzo03zbhopBHLWcuqdpwY241R%2F&noverify=0&group_code=151450850) [![加入QQ群](https://img.shields.io/badge/已满-224622315-blue.svg)](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=F58bgRa-Dp-rsQJThiJqIYv8t4-lWfXh&authKey=UmUs4CVG5OPA1whvsa4uSespOvyd8%2FAr9olEGaWAfdLmfKQk%2FVBp2YU3u2xXXt76&noverify=0&group_code=224622315) [![加入QQ群](https://img.shields.io/badge/已满-287842588-blue.svg)](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=Nxb2EQ5qozWa218Wbs7zgBnjLSNk_tVT&authKey=obBKXj6SBKgrFTJZx0AqQnIYbNOvBB2kmgwWvGhzxR67RoRr84%2Bus5OadzMcdJl5&noverify=0&group_code=287842588) [![加入QQ群](https://img.shields.io/badge/已满-187944233-blue.svg)](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=numtK1M_I4eVd2Gvg8qtbuL8JgX42qNh&authKey=giV9XWMaFZTY%2FqPlmWbkB9g3fi0Ev5CwEtT9Tgei0oUlFFCQLDp4ozWRiVIzubIm&noverify=0&group_code=187944233) [![加入QQ群](https://img.shields.io/badge/228578329-blue.svg)](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=G6r5KGCaa3pqdbUSXNIgYloyb8e0_L0D&authKey=4w8tF1eGW7%2FedWn%2FHAypQksdrML%2BDHolQSx7094Agm7Luakj9EbfPnSTxSi2T1LQ&noverify=0&group_code=228578329) 点击按钮入群。
+## 页面说明
+
+### 用户界面
+
+#### 1. 首页 (index.html)
+- 系统介绍和核心功能展示
+- 用户注册/登录入口
+- 功能特色和统计数据展示
+
+#### 2. 面试页面 (interview.html)
+- 面试设置：岗位选择、模式选择
+- 设备检测：摄像头和麦克风测试
+- 面试进行：实时录制和问题展示
+- 结果展示：综合评分和详细分析
+
+#### 3. 个人中心 (dashboard.html)
+- 用户概览：统计数据和能力雷达图
+- 面试历史：历史记录和筛选功能
+- 成长轨迹：能力发展曲线和里程碑
+- 学习推荐：个性化资源和学习计划
+- 成就系统：徽章展示和进度跟踪
+- 证书管理：能力证书生成和分享
+
+#### 4. 登录页面 (login.html)
+- 邮箱/密码登录
+- 社交账号登录
+- 忘记密码功能
+- 游客体验入口
+
+#### 5. 注册页面 (register.html)
+- 多步骤注册流程
+- 基本信息、学校信息填写
+- 邮箱验证
+- 社交账号注册
+
+### 管理员界面
+
+#### 6. 管理员后台 (admin.html)
+- **数据概览**：关键指标、图表分析、实时状态
+- **用户管理**：用户列表、搜索筛选、批量操作
+- **面试管理**：面试记录、实时监控、数据导出
+- **题库管理**：题目增删改查、分类管理、批量导入
+- **数据分析**：完成率趋势、能力分布、用户统计
+- **系统设置**：基础配置、面试参数、AI模型设置
+- **系统日志**：操作记录、错误日志、安全审计
+
+## 使用说明
+
+### 环境要求
+- 现代浏览器（Chrome、Firefox、Safari、Edge）
+- 摄像头和麦克风设备
+- 稳定的网络连接
+
+### 快速开始
+
+1. **打开首页**
+   ```
+   在浏览器中打开 index.html
+   ```
+
+2. **用户注册**
+   - 点击"立即注册"按钮
+   - 填写基本信息和学校信息
+   - 完成邮箱验证
+
+3. **开始面试**
+   - 登录后进入面试页面
+   - 选择目标岗位和面试模式
+   - 进行设备检测
+   - 开始面试并回答问题
+   - 查看评测结果和改进建议
+
+4. **查看成长**
+   - 在个人中心查看历史记录
+   - 分析能力发展趋势
+   - 获取个性化学习建议
+   - 收集成就和证书
+
+### 管理员使用
+
+1. **访问后台**
+   ```
+   在浏览器中打开 admin.html
+   ```
+
+2. **用户管理**
+   - 查看和管理注册用户
+   - 监控用户活动状态
+   - 处理用户反馈和问题
+
+3. **内容管理**
+   - 维护面试题库
+   - 更新岗位信息
+   - 配置评测参数
+
+4. **数据分析**
+   - 查看系统使用统计
+   - 分析用户行为数据
+   - 生成运营报告
+
+## 功能特色
+
+### 🎥 实时面试体验
+- 真实的面试环境模拟
+- 智能面试官互动
+- 多种题型和难度选择
+- 实时表现反馈
+
+### 🧠 AI智能分析
+- 语音情感识别
+- 面部表情分析
+- 语言内容理解
+- 综合能力评估
+
+### 📱 响应式设计
+- 适配各种屏幕尺寸
+- 流畅的用户体验
+- 现代化的界面设计
+- 无障碍访问支持
+
+### 🔒 数据安全
+- 用户隐私保护
+- 数据加密传输
+- 安全的身份验证
+- 完善的权限控制
+
+## 开发计划
+
+### 近期目标
+- [ ] 完善AI分析算法
+- [ ] 增加更多岗位支持
+- [ ] 优化用户体验
+- [ ] 添加移动端支持
+
+### 长期规划
+- [ ] 集成更多AI技术
+- [ ] 支持多语言界面
+- [ ] 开发API接口
+- [ ] 构建生态系统
+
+## 技术支持
+
+如果您在使用过程中遇到问题，请通过以下方式获取帮助：
+
+- 📧 邮箱：support@interview-system.com
+- 📞 电话：400-123-4567
+- 💬 在线客服：系统内置客服功能
+- 📚 帮助文档：详细的使用指南和FAQ
+
+## 版权信息
+
+© 2024 多模态智能模拟面试评测系统. 保留所有权利。
+
+---
+
+**让每一次面试都成为成长的机会！** 🚀
